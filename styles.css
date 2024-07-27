@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Asset/Background.png'); /* Ganti dengan path gambar yang ingin digunakan */
+    background-size: cover; /* Menutupi seluruh latar belakang */
+    background-position: center; /* Menempatkan gambar di tengah */
+    height: 1000px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px;
+}
+
+.video {
+    max-width: 100%; /* Memastikan video tidak lebih lebar dari container */
+    height: auto; /* Menjaga proporsi video */
+    margin-bottom: 20px; /* Ruang di bawah video */
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.message {
+    color: #555;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.signature {
+    margin-top: 20px;
+    font-style: italic;
+    color: #ff69b4;
+}
